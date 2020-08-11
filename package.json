@@ -1,0 +1,14 @@
+{
+  "name": "express-react-spa-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev-env": "concurrently \"cd backend && DEBUG=backend:* NODE_ENV=development PORT=3000 nodemon \"npm start\"\" \"cd frontend && export PORT=3002 && npm start\"",
+    "build-frontend": "cd frontend && npm run build && cd .. && cp -R frontend/build/ backend/public/ && mv backend/public/index.html backend/public/app.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
