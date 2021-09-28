@@ -1,3 +1,4 @@
+
 ```bash
-npm start-dev-env
+npm install && npm run start-dev-env
 ```
