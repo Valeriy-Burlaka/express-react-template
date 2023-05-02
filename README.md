@@ -1,4 +1,3 @@
+# Deprecated
 
-```bash
-npm install && npm run start-dev-env
-```
+This repository is now archived in favor of [react-express-template](https://github.com/Valeriy-Burlaka/react-express-template).
